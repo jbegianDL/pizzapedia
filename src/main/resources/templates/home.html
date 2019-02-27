@@ -8,6 +8,11 @@
 <div class="title">
     <h1>Pizza-Pedia</h1>
 </div>
-    <img src="../static/images/pepperoni.jpg"/>
+<div th:each="pizza : ${pizza}">
+    <a th:href="@{'/pizza/' + ${pizza.pizzaName}}">
+        <img th:src="@{'/images/' + ${pizza.pizzaName} + '.jpg'}"/>
+    </a>
+</div>
+
 </body>
 </html>

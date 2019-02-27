@@ -18,6 +18,7 @@ public class PizzaController {
     private PizzaRepository pizzaRepository;
 
 
+    @RequestMapping("/")
     public String getAllPizza(ModelMap modelMap){
         List<Pizza> pizza = pizzaRepository.getAllPizza();
         modelMap.put("pizza", pizza);
