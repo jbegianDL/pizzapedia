@@ -21,7 +21,7 @@ public class PizzaRepository {
             new Pizza("hawaiian", "Greek-Canadian Sam Panopoulos claimed that he " +
                     "created the first Hawaiian pizza at the Satellite Restaurant in" +
                     " Chatham, Ontario, Canada in 1962 \n it traditional comes with, Cheese, Ham, Bacon and Pineapple"),
-            new Pizza("margarita", "A Margarita normally comes with, Cheese, Tomato and Basil Leaves"),
+            new Pizza("margherita", "A Margarita normally comes with, Cheese, Tomato and Basil Leaves"),
             new Pizza("pepperoni", "This Pizza comes simply with Cheese and Pepperoni"),
             new Pizza("veggie", "This Pizza can come with many a variety of veggies depending" +
                     "on where you are eating."));
