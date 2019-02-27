@@ -2,17 +2,19 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>PIZZA-PEDIA</title>
+    <link rel="stylesheet" th:href="@{/app.css}"/>
 </head>
 <body>
 <div class="title">
     <h1>Pizza-Pedia</h1>
 </div>
-<div th:each="pizza : ${pizza}">
-    <a th:href="@{'/pizza/' + ${pizza.pizzaName}}">
-        <img th:src="@{'/images/' + ${pizza.pizzaName} + '.jpg'}"/>
-    </a>
+<div class="row">
+    <div th:each="pizza : ${pizza}" class="col">
+        <a th:href="@{'/pizza/' + ${pizza.pizzaName}}">
+            <img class="home" th:src="@{'/images/' + ${pizza.pizzaName} + '.jpg'}"/>
+        </a>
+    </div>
 </div>
-
 </body>
 </html>

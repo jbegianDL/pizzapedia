@@ -2,11 +2,12 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>PIZZA DETIALS</title>
+    <link rel="stylesheet" th:href="@{/app.css}"/>
 </head>
 <body>
-<h1 th:text="${pizza.pizzaName}"></h1>
-<img th:src="@{'/images/' + ${pizza.pizzaName} + '.jpg'}"/>
+<h1 class="title" th:text="${pizza.pizzaName}"></h1>
+<img class="details" th:src="@{'/images/' + ${pizza.pizzaName} + '.jpg'}"/>
 <p th:text="${pizza.pizzaDescription}"></p>
 </body>
 </html>

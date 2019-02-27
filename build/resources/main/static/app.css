@@ -1,0 +1,34 @@
+.title {
+    text-transform: uppercase;
+    font-family: "Comic Sans MS";
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+img.home:hover{
+    box-shadow: 10px 10px 8px 10px #888888;;
+}
+
+img.details{
+    max-width: 50%;
+    height: auto;
+    border-radius: 10%;
+}
+
+p {
+    font-family: "Comic Sans MS";
+    font-size: larger;
+}

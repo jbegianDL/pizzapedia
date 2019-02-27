@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.detroitlabs.pizzapedia.iml" filepath="$PROJECT_DIR$/.idea/modules/com.detroitlabs.pizzapedia.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.detroitlabs.pizzapedia.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.detroitlabs.pizzapedia.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.detroitlabs.pizzapedia.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.detroitlabs.pizzapedia.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
     </modules>
   </component>
 </project>
