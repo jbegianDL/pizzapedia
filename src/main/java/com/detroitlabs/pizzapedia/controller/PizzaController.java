@@ -10,7 +10,7 @@ public class PizzaController {
     @RequestMapping("/")
     @ResponseBody
     public String displayHome(){
-        String hello = "Hello";
+        String hello = "Hello world";
         return hello;
     }
 }
